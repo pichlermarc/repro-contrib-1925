@@ -2,9 +2,9 @@
 
 ## How to use
 
-- `npm ci`
+- `npm ci --legacy-peer-deps`
 - `npm run build`
 - `docker compose up` (starts Jaeger)
 - `npm run start:dev`
-- open http://localhost:3000/cats`
+- open http://localhost:3000/cats
 - go to http://localhost:16686/ (Jaeger) and inspect the traces
